@@ -82,42 +82,42 @@ document.getElementById('yr').textContent = new Date().getFullYear();
 
 /* ================================================================
    RESPONSIVE PHOTO SET
-   Curated Black/African American wellness, strength-training,
-   and clinical consultation imagery with branded fallbacks.
+   Curated inclusive clinical-luxury longevity, restorative movement, walking,
+   and physician-guided consultation imagery with branded fallbacks.
    ================================================================ */
 /* ================================================================
    PHOTO IMAGES — Pexels CDN
-   Curated fully clothed, content-relevant mature adult imagery selected for Stronger After 40: resistance work, muscle restoration, walking stability, mobility, support, and functional strength.
+   Curated fully clothed, content-relevant mature adult imagery selected for Stronger After 40: physician-guided restoration, muscle support, walking stability, mobility, longevity, and visible diversity.
    ================================================================ */
 var PHOTOS = [
   { imgId:'ai-hero-img', loaderId:'ai-hero-loader', badgeId:null, fbType:'person', position:'center center',
     src:'https://images.pexels.com/photos/5163854/pexels-photo-5163854.jpeg?auto=compress&cs=tinysrgb&w=1800&h=1200&fit=crop',
-    alt:'Fully clothed women using resistance bands outdoors, representing strength rebuilding after 40',
-    prompt:'Hero image: fully clothed adults using resistance bands outdoors, directly tied to rebuilding strength, stability, and confidence after 40.' },
+    alt:'Fully clothed diverse midlife adults in a refined clinical-longevity setting, representing strength restoration after 40',
+    prompt:'Hero image: fully clothed diverse midlife adults in a refined clinical-longevity setting, directly tied to muscle restoration, stability, and confidence after 40.' },
   { imgId:'ai-prob1-img', loaderId:'ai-prob1-loader', badgeId:'ai-prob1-badge', fbType:'person', position:'center center',
     src:'images/program-photo-1.jpg',
     alt:'Fully clothed Black woman measuring her waist indoors, representing body-composition awareness after 40',
-    prompt:'Problem-section image: fully clothed woman checking body-composition progress with a measuring tape, relevant to noticing midlife changes, strength, and waist/body composition after 40.' },
+    prompt:'Problem-section image: fully clothed woman reviewing body-composition patterns, relevant to midlife changes, muscle support, metabolism, and performance after 40.' },
   { imgId:'ai-clin1-img', loaderId:'ai-clin1-loader', badgeId:null, fbType:'person', position:'center center',
     src:'https://images.pexels.com/photos/8417532/pexels-photo-8417532.jpeg?auto=compress&cs=tinysrgb&w=750&h=1000&fit=crop',
     alt:'Fully clothed mature woman using a resistance band outdoors, representing muscle restoration and joint support',
-    prompt:'Clinical-section image: fully clothed mature woman doing controlled resistance-band work outdoors, directly relevant to rebuilding muscle and supporting joints.' },
+    prompt:'Clinical-section image: fully clothed mature adult performing controlled restorative movement, directly relevant to rebuilding muscle support and protecting joint function.' },
   { imgId:'ai-clin3-img', loaderId:'ai-clin3-loader', badgeId:null, fbType:'person', position:'center center',
     src:'https://images.pexels.com/photos/7242889/pexels-photo-7242889.jpeg?auto=compress&cs=tinysrgb&w=750&h=1000&fit=crop',
     alt:'Fully clothed Black woman walking outdoors, representing sustainable movement and healthy daily activity',
-    prompt:'Clinical support image: fully clothed Black woman walking outdoors, relevant to sustainable activity, mobility, and staying active without gym-influencer styling.' },
+    prompt:'Clinical support image: fully clothed Black woman walking outdoors, relevant to mobility, longevity, stability, and daily function without fitness-ad styling.' },
   { imgId:'ai-sol1-img', loaderId:'ai-sol1-loader', badgeId:null, fbType:'person', position:'center center',
     src:'https://images.pexels.com/photos/8417426/pexels-photo-8417426.jpeg?auto=compress&cs=tinysrgb&w=900&h=1200&fit=crop',
     alt:'Fully clothed mature woman moving outdoors in a park, representing functional strength and stability',
-    prompt:'Solution-section image: fully clothed mature woman moving outdoors, relevant to functional fitness, stability, and building capacity for daily life.' },
+    prompt:'Solution-section image: fully clothed mature woman moving outdoors, relevant to physical optimization, stability, and rebuilding capacity for daily life.' },
   { imgId:'ai-sol3-img', loaderId:'ai-sol3-loader', badgeId:null, fbType:'person', position:'center center',
-    src:'images/program-photo-2.png',
-    alt:'Fully clothed Black women walking together outdoors, representing mobility, support, and accountability after 40',
-    prompt:'Program image: fully clothed Black women walking together outdoors, relevant to mobility, walking stability, support, accountability, and confidence after 40.' },
+    src:'images/diverse-wellness-group.svg',
+    alt:'Fully clothed diverse midlife women walking together outdoors, representing mobility, support, and accountability after 40',
+    prompt:'Program image: fully clothed diverse midlife adults walking together outdoors, relevant to mobility, stability, support, longevity, and confidence after 40.' },
   { imgId:'ai-final-img', loaderId:'ai-final-loader', badgeId:null, fbType:'person', position:'center center',
     src:'https://images.pexels.com/photos/8795589/pexels-photo-8795589.jpeg?auto=compress&cs=tinysrgb&w=1800&h=1000&fit=crop',
     alt:'Fully clothed mature woman Nordic walking in a park, representing stability, mobility, and feeling stronger again',
-    prompt:'Final CTA image: fully clothed mature woman walking in a park, relevant to stability, mobility, independence, and feeling stronger after 40.' }
+    prompt:'Final CTA image: fully clothed mature woman walking in a park, relevant to restored stability, mobility, independence, and long-term physical confidence after 40.' }
 ];
 
 /* ================================================================
